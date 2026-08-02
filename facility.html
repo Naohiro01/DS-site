@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>施設紹介</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="https://unpkg.com">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header-sub">
+        <div class="logo">
+            <img src="img/DS-logo.PNG" alt="デイサービスNao">
+        </div><!-- .logo -->
+        <nav id="NV">
+            <a href="index.html">トップ</a>
+            <a href="service.html">サービス紹介</a>
+            <a href="facility.html">施設紹介</a>
+            <a href="schedule.html">1日の流れ</a>
+            <a href="recruit.html">採用情報</a>
+            <a href="contact.html">お問い合わせ</a>
+        </nav><!-- #NV -->
+        <button class="hamburger" id="hamburger" aria-label="メニュー">
+            <span></span><span></span><span></span>
+        </button>
+    </header><!-- .header-sub -->
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <h1>施設紹介</h1>
+        <p>安心・安全・快適な環境をご用意しています</p>
+    </section><!-- .page-hero -->
+
+    <!-- 施設写真 -->
+    <section id="facility-photos">
+        <div class="container">
+            <div class="facility-photo-grid">
+                <img src="img/faciilty-ex.PNG" alt="施設外観">
+                <img src="img/facility-in.PNG" alt="施設内リビング">
+            </div><!-- .facility-photo-grid -->
+        </div><!-- .container -->
+    </section><!-- #facility-photos -->
+
+    <!-- FACILITY INFO -->
+    <section id="facility-info">
+        <div class="container">
+            <p class="section-label">Information</p>
+            <h2 class="section-title">施設<span>情報</span></h2>
+            <table class="facility-table">
+                <tr>
+                    <th>施設名</th>
+                    <td>デイサービスNao</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒000-0000 東京都〇〇区〇〇1-2-3</td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td>000-0000-0000</td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>9:00-16:00(送迎含む)</td>
+                </tr>
+                <tr>
+                    <th>定員</th>
+                    <td>20名</td>
+                </tr>
+                <tr>
+                    <th>対象者</th>
+                    <td>要支援1-2、要介護1-5の認定を受けた方
+                    </td>
+                </tr>
+                <tr>
+                    <th>サービス提供日</th>
+                    <td>月曜日ー土曜日(祝日も営業)</td>
+                </tr>
+                <tr>
+                    <th>休業日</th>
+                    <td>日曜・年末年始※例外有。事前にお知らせします。
+                    </td>
+                </tr>
+            </table><!-- .facility-table -->
+        </div><!-- .container -->
+    </section><!-- #facility-table -->
+
+    <!-- MAP -->
+    <section id="facility-map">
+        <div class="container">
+            <p class="section-label">Access</p>
+            <h2 class="section-title">アクセス<span>マップ</span></h2>
+            <div class="map-wrap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.828!2d139.7004!3d35.6938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6597d65%3A0x5065b43f72073cef!2z5paw5a6_5Yy6!5e0!3m2!1sja!2sjp"></iframe>
+            </div><!-- .map-wrap -->
+        </div><!-- .container -->
+    </section><!-- #facility-map -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">デイサービス<span>Nao</span></div>
+            
+            <nav id="footer-nav">
+                    <a href="index.html">トップ</a>
+                    <a href="service.html">サービス紹介</a>
+                    <a href="facility.html">施設紹介</a>
+                    <a href="schedule.html">1日の流れ</a>
+                    <a href="recruit.html">採用情報</a>
+                    <a href="contact.html">お問い合わせ</a>
+            </nav><!-- #footer-nav -->
+                <p class="footer-address">〒000-0000 東京都〇〇区〇〇1-2-3/TEL:000-0000-0000</p>
+                <p>&copy; 2026 デイサービスNao</p>
+            </div><!-- .footer-inner -->
+        </footer>
+
+        <button id="page-top" aria-label="ページトップ"><span class="material-symbols-outlined">arrow_upward</span></button>
+        
+        <script src="script.js"></script>
+</body>
+</html>

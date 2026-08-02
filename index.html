@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デイサービスNao</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="https://unpkg.com">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+     <header>
+         <div class="logo">
+            <img src="img/DS-logo.PNG" alt="デイサービスNao">
+         </div>
+        <nav id="NV">
+            <a href="index.html">トップ</a>
+            <a href="service.html">サービス紹介</a>
+            <a href="facility.html">施設紹介</a>
+            <a href="schedule.html">1日の流れ</a>
+            <a href="recruit.html">採用情報</a>
+            <a href="contact.html">お問合わせ</a>
+        </nav><!-- #NV -->
+        <button class="hamburger" id="hamburger" aria-label="メニュー">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button><!-- .hamburger -->
+     </header>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">    
+            <p class="hero-eyebrow">ようこそ!デイサービス<span class="nao-color">Nao</span>へ！</p>
+            <h1 class="hero-title">地域に寄り添う、<br>温かいデイサービス</h1>
+            <p class="hero-desc">ご利用者様お一人おひとりに寄り添い、<br>笑顔あふれる毎日をサポートします。</p>
+            <div class="hero-btns">
+                <a href="service.html" class="btn-primary">サービスを見る</a>
+                <a href="contact.html" class="btn-secondary">お問合わせ</a>
+            </div><!-- .hero-btns -->
+        </div><!-- .hero-content -->
+        <div class="hero-photo">
+            <img src="img/faciilty-ex.PNG" alt="施設外観">
+        </div><!-- .hero-photo -->
+    </section><!-- #hero -->
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <p class="section-label">About</p>
+            <h2 class="section-title">施設<span>概要</span></h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-icon"><span class="material-symbols-outlined">home</span></div>
+                    <h3>アットホームな環境</h3>
+                    <p>家庭的な雰囲気の中で、リラックスして過ごせる区間をご用意しています。</p>
+                </div><!-- .about-item -->
+
+                <div class="about-item">
+                    <div class="about-icon"><span class="material-symbols-outlined">group</span></div>
+                    <h3>専門スタッフが対応</h3>
+                    <p>介護福祉士や看護師などの専門スタッフが、安心・安全なケアを提供します。</p>
+                </div><!-- .about-item -->
+
+                <div class="about-item">
+                    <div class="about-icon"><span class="material-symbols-outlined">casino</span></div>
+                    <h3>個別対応のプログラム</h3>
+                    <p>ご利用者様お一人おひとりの状態や希望に合わせた個別プログラムをご提案します。</p>
+                </div><!-- .about-item -->
+            </div><!-- .about-grid -->
+        </div><!-- .container -->
+    </section><!-- #about -->
+
+    <!-- SERVICE -->
+    <section id="service">
+            <div class="container">
+                <p class="section-label">Service</p>
+                <h2 class="section-title">サービス<span>紹介</span></h2>
+                <div class="service-grid">
+                    <a href="service.html" class="service-card">
+                        <div class="service-icon"><span class="material-symbols-outlined">bathtub</span></div>
+                        <h3>入浴介助</h3>
+                        <p>安全に配慮した入浴サービスを提供しています。</p>
+                    </a><!-- .service-card -->
+
+                    <a href="service.html" class="service-card">
+                        <div class="service-icon"><span class="material-symbols-outlined">restaurant</span></div>
+                        <h3>食事提供</h3>
+                        <p>栄養バランスのとれたお食事を毎日提供しています。</p>
+                    </a><!-- .service-card -->
+
+                    <a href="service.html" class="service-card">
+                            <div class="service-icon"><span class="material-symbols-outlined">directions_run</span></div>
+                        <h3>機能訓練</h3>
+                        <p>身体機能の維持・向上を目指したリハビリを行います。</p>
+                    </a><!-- .service-card -->
+
+                    <a href="service.html" class="service-card">
+                        <div class="service-icon"><span class="material-symbols-outlined">palette</span></div>
+                        <h3>レクリエーション</h3>
+                        <p>季節のイベントや趣味活動など充実したプログラムです。</p>
+                    </a><!-- .service-card -->
+                </div><!-- .service-grid -->
+            </div><!-- .container -->
+    </section><!-- #service -->
+
+    <!-- SCHEDULE -->
+    <section id="schedule-preview">
+            <div class="container">
+                <p class="section-label">Schedule</p>
+                <h2 class="section-title"><span>1日の</span>流れ</h2>
+                <div class="schedule-list">
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00</div>
+                        <div class="schedule-body">
+                            <h3>送迎・来所</h3>
+                            <p>スタッフがご自宅までお迎えに伺います。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:30</div>
+                        <div class="schedule-body">
+                            <h3>健康チェック</h3>
+                            <p>血圧・体温測定など体調管理を行います。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:00</div>
+                        <div class="schedule-body">
+                            <h3>機能訓練・入浴</h3>
+                            <p>個別プログラムに沿ったリハビリや入浴介助を行います。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">12:00</div>
+                        <div class="schedule-body">
+                            <h3>昼食</h3>
+                            <p>栄養バランスのとれたお食事を提供します。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">13:00</div>
+                        <div class="schedule-body">
+                            <h3>レクリエーション</h3>
+                            <p>季節のイベントや趣味活動など楽しいプログラムです。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                    
+                    <div class="schedule-item">
+                        <div class="schedule-time">15:00</div>
+                        <div class="schedule-body">
+                            <h3>おやつ</h3>
+                            <p>季節のおやつを楽しみながらゆったり過ごします。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                    
+                    <div class="schedule-item">
+                    <div class="schedule-time">16:00</div>
+                        <div class="schedule-body">
+                            <h3>送迎</h3>
+                            <p>ご自宅までスタッフがお送りします。</p>
+                        </div><!-- .schedule-body -->
+                    </div><!-- .schedule-item -->
+                </div><!-- .schedule-list -->      
+                <div class="section-link">
+                    <a href="schedule.html" class="btn-primary">詳しく見る</a>
+                </div><!-- .section-link -->
+            </div><!-- .container -->
+    </section><!-- #schedule-preview -->
+
+    <!-- RECRUIT -->
+    <section id="recruit-preview">
+            <div class="container">
+                <p class="section-label">Recruit</p>
+                <h2 class="section-title">採用<span>情報</span></h2>
+                <div class="recruit-box">
+                    <p>私たちと一緒に、ご利用者様の笑顔を支えてませんか？<br>介護職・看護職・事務職など各種スタッフを募集しています。</p>
+                    <a href="recruit.html" class="btn-primary">募集要項を見る</a>
+                </div><!-- .recruit-box -->
+            </div><!-- .container -->
+    </section><!-- #recruit-preview -->
+
+    <!-- CONTACT -->
+    <section id="contact-preview">
+            <div class="container">
+                <p class="section-label">Contact</p>
+                <h2 class="section-title"><span>お問い</span>合わせ</h2>
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <p><span class="material-symbols-outlined">call</span> 000-0000-0000</p>
+                        <p><span class="material-symbols-outlined">schedule</span> 受付時間:平日9:00-18:00</p>
+                        <p><span class="material-symbols-outlined">location_on</span> 東京都◯◯区◯◯1-2-3</p>
+                    </div><!-- .contact-info -->
+                    <a href="contact.html" class="btn-primary">お問合わせ</a>
+                </div><!-- .contact-box -->
+            </div><!-- .container -->
+    </section><!-- #contact-preview -->
+
+    <!-- FOOTER -->
+    <footer>
+            <div class="footer-inner">
+                <div class="footer-logo"> デイサービス<span>Nao</span></div>
+                <nav class="footer-nav">
+                    <a href="index.html">トップ</a>
+                    <a href="service.html">サービス紹介</a>
+                    <a href="facility.html">施設紹介</a>
+                    <a href="schedule.html">1日の流れ</a>
+                    <a href="recruit.html">採用情報</a>
+                    <a href="contact.html">お問合わせ</a>             
+                </nav><!-- .footer-nav -->
+                <p class="footer-address">〒000-0000 東京都◯◯区◯◯1-2-3/TEL:000-0000-0000</p>
+                <p>&copy; 2026 デイサービスNao</p>
+            </div><!-- .footer-inner -->
+    </footer>
+
+    <button id="page-top" aria-label="ページトップ"><span class="material-symbols-outlined">arrow_upward</span></button>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="https://unpkg.com">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-sub">
+        <div class="logo">
+            <img src="img/DS-logo.PNG" alt="デイサービスNao">
+        </div><!-- .logo -->
+        <nav id="NV">
+            <a href="index.html">トップ</a>
+            <a href="service.html">サービス紹介</a>
+            <a href="facility.html">施設紹介</a>
+            <a href="schedule.html">1日の流れ</a>
+            <a href="recruit.html">採用情報</a>
+            <a href="contact.html">お問い合わせ</a>
+        </nav><!-- #NV -->
+        <button class="hamburger" id="hamburger" aria-label="メニュー">
+            <span></span><span></span><span></span>
+        </button>
+    </header><!-- .header-sub -->
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <h1>お問い合わせ</h1>
+        <p>見学・ご相談・採用に関するお問い合わせはこちら</p>
+    </section><!-- .page-hero -->
+
+    <!-- CONTACT FORM -->
+    <section id="contact-form">
+        <div class="container">
+            <div class="form-wrap">
+                <form novalidate>
+                    <p class="form-message" id="form-message"></p>
+                    <div class="form-group">
+                        <label for="name">お名前<span class="required-badge">必須</span></label>
+                        <input type="text" id="name" name="name" placeholder="例:高橋 一二三" required/>
+                    </div><!-- .form-group -->
+
+                    <div class="form-group">
+                        <label for="kana">フリガナ<span class="required-badge">必須</span></label>
+                        <input type="text" id="kana" name="kana" placeholder="例:タカハシ ヒフミ" required/>
+                    </div><!-- .form-group -->
+
+                    <div class="form-group">
+                        <label for="tel">電話番号</label>
+                        <input type="tel" id="tel" name="mail" placeholder="例:000-0000-0000"/>
+                    </div><!-- .form-group -->
+
+                    <div class="form-group">
+                        <label for="mail">メールアドレス<span class="required-badge">必須</span></label>
+                        <input type="email" id="email" name="email" placeholder="例:〇〇＠email.com" required/>
+                    </div><!-- .form-group -->
+
+                    <div class="form-group">
+                        <label for="category">お問い合わせ種別<span class="required-badge">必須</span></label>
+                        <select id="category" name="category" required>
+                            <option value="">選択してください</option>
+                            <option value="service">サービスについて</option>
+                            <option value="visit">見学について</option>
+                            <option value="recruit">採用について</option>
+                            <option value="other">その他</option>
+                        </select><!-- #category -->
+                    </div><!-- .form-group -->
+
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容<span class="required-badge">必須</span></label>
+                        <textarea name="message" id="message" rows="6" placeholder="お気軽にご記入ください"></textarea>
+                    </div><!-- .form-group -->
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn-primary">送信する</button>
+                    </div><!-- .form-submit -->
+                </form>
+            </div><!-- .form-wrap -->
+        </div><!-- .container -->
+    </section><!-- #contact-form -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">デイサービス<span>Nao</span></div>
+            <nav class="footer-nav">
+                <a href="index.html">トップ</a>
+                <a href="service.html">サービス紹介</a>
+                <a href="facility.html">施設紹介</a>
+                <a href="schedule.html">1日の流れ</a>
+                <a href="recruit.html">採用情報</a>
+                <a href="contact.html">お問い合わせ</a>
+            </nav><!-- .footer-nav -->
+                <p class="footer-address">〒000-0000 東京都〇〇区〇〇1-2-3/TEL:000-0000-0000</p>
+                <p class="footer-copy">&copy; 2026 デイサービスNao</p>
+            </div><!-- footer-inner -->
+    </footer>
+
+        <button id="page-top" aria-label="ページトップ"><span class="material-symbols-outlined">arrow_upward</span></button>
+
+        <script src="script.js"></script>
+</body>
+</html>
