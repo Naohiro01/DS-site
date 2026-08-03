@@ -881,8 +881,9 @@ footer {
 
     .logo img {
         position: absolute;
-        left: 35%;
-        transform: translateY(-50%);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
     }
 
     nav.open {
