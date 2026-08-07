@@ -757,6 +757,34 @@ padding: 80px 5%;
     color: var(--color-brown);
 }
 
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-check input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+.form-check input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(141, 184, 74, 0.35);
+    border-radius: 3px;
+}
+
+.form-check label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.form-check a {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
 .form-message {
     display: none;
     padding: 0.8em 1rem;

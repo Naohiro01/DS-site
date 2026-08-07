@@ -50,7 +50,7 @@ if (contactForm) {
         e.preventDefault();
         const msg = document.getElementById('form-message');
         const invalid = [...contactForm.querySelectorAll('[required]')]
-        .find(el => !el.value.trim());
+        .find(el => el.type === 'checkbox' ? !el.checked : !el.value.trim());
 
         if (invalid) {
             msg.textContent = '未入力・未選択の項目があります。ご確認ください。';
