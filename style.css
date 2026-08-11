@@ -953,4 +953,13 @@ footer {
     .btn-tel {
         display: inline-flex;
     }
+
+    .recruit-btns a {
+        width: 100%;
+        max-width: 200px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
