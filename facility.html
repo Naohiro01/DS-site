@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://unpkg.com">
     <!-- css読込 -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- jsの読込 -->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -47,8 +50,8 @@
     <section id="facility-photos">
         <div class="container">
             <div class="facility-photo-grid">
-                <img src="img/faciilty-ex.PNG" alt="施設外観">
-                <img src="img/facility-in.PNG" alt="施設内リビング">
+                <img src="img/faciilty-ex.PNG" loading="lazy" alt="施設外観">
+                <img src="img/facility-in.PNG" loading="lazy" alt="施設内リビング">
             </div><!-- .facility-photo-grid -->
         </div><!-- .container -->
     </section><!-- #facility-photos -->
@@ -129,6 +132,5 @@
 
         <button id="page-top" aria-label="ページトップ"><span class="material-symbols-outlined">arrow_upward</span></button>
         
-        <script src="script.js"></script>
 </body>
 </html>
