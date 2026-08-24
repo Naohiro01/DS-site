@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://unpkg.com">
     <!-- css読込 -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- jsの読込 -->
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -48,8 +51,8 @@
     <section id="recruit-detail">
         <div class="container">
             <div class="recruit-photo-grid">
-                <img src="img/staff-mem.PNG" alt="スタッフ一同" class="recruit-photo-wide">
-                <img src="img/staff.PNG" alt="笑顔のスタッフ" class="recruit-photo-tall" >
+                <img src="img/staff-mem.PNG" loading="lazy" alt="スタッフ一同" class="recruit-photo-wide">
+                <img src="img/staff.PNG" loading="lazy" alt="笑顔のスタッフ" class="recruit-photo-tall" >
             </div><!-- .recruit-photo-grid -->
 
             <h2 class="section-title">介護職員<span>募集</span></h2>
@@ -115,7 +118,7 @@
 
             <div class="recruit-btns">
                 <a href="tel:000-0000-0000" class="btn-primary btn-tel"><span class="material-symbols-outlined">call</span>電話で応募</a>
-                <a href="contact.html" class="btn-secondary">フォームで応募</a>
+                <a href="contact.html" class="btn-secondary"><span class="material-symbols-outlined">keyboard</span>入力で応募</a>
             </div><!-- .recruit-btns -->
         </div><!-- .recruit-apply -->
 
@@ -135,6 +138,8 @@
                 <a href="recruit.html">採用情報</a>
                 <a href="contact.html">お問い合わせ</a>
                 <a href="privacy.html">個人情報の取り扱いについて</a>
+                <a href="rules.html">運営規程</a>             
+                <a href="important-matters.html">重要事項説明書</a>
             </nav><!-- .footer-nav -->
                 <p class="footer-address">〒000-0000 東京都〇〇区〇〇1-2-3/TEL000-0000-0000</p>
                 <p class="footer-copy">&copy; 2026 デイサービスNao</p>
@@ -143,6 +148,5 @@
 
         <button id="page-top" aria-label="ページトップ"><span class="material-symbols-outlined">arrow_upward</span></button>
 
-        <script src="script.js"></script>
 </body>
 </html>
