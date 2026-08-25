@@ -1038,7 +1038,7 @@ footer {
 
 .numeric-table td:nth-child(2),
 .numeric-table td:nth-child(3) {
-    text-align: right;
+    text-align: center;
     white-space: nowrap;
 }
 
@@ -1128,8 +1128,18 @@ footer {
 
     .legal-table {
         font-size: 0.78rem;
+        min-width: 500px;
     }
 
+    .table-wrapper {
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .legal-table th,
+    .legal-table td {
+        white-space: normal;
+        min-width: 100px;
+    }
 
     .recruit-btns a {
         width: 100%;
